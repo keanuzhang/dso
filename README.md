@@ -1,5 +1,5 @@
 # DSO: Direct Sparse Odometry
-
+# 从JakobEngel的Repository引用过来，针对OpenCV4和ubuntu20.04环境编译进行了一部分修正。
 For more information see
 [https://vision.in.tum.de/dso](https://vision.in.tum.de/dso)
 
