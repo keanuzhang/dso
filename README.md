@@ -1,5 +1,9 @@
 # DSO: Direct Sparse Odometry
 # 从JakobEngel的Repository引用过来，针对OpenCV4和ubuntu20.04环境编译进行了一部分修正。
+1、将IOWrapper/OpenCV/ImageRW_OpenCV.cpp文件中的几个宏做修改：
+   CV_LOAD_IMAGE_GRAYSCALE --> cv::IMREAD_GRAYSCALE
+   CV_LOAD_IMAGE_COLOR     --> cv::IMREAD_COLOR
+   CV_LOAD_IMAGE_UNCHANGED --> cv::IMREAD_UNCHANGED
 For more information see
 [https://vision.in.tum.de/dso](https://vision.in.tum.de/dso)
 
